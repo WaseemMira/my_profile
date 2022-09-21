@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body {
+  background-color: lightblue;
+  text-align: center;
+  margin:0 auto;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: red;
+}
+
+#link {
+  font-weight: bold;
+  color: red;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+.card-white p{
+  color: red;
+}
+
+img {
+border-radius: 50%;
+box-shadow: 2px, 2px, 3px,rgb(255, 166, 0);
+}
+
+.list-inline i{
+  font-size: 50px;
+}
+
+.list-inline li{
+  list-style: none;
+}
+
+i:hover{
+  color: white;
+}
+
+.card-demo p{
+  color: blueviolet;
+}
+
+.card-demo h2{
+   color: rgb(187, 255, 0);
+}
+
+.card-white {
+  width: 500px ;
+  margin: 0 auto;
+  background-color: greenyellow;
+  box-shadow: 7px 7px blueviolet;
+}
+
+.card-demo{
+  width: 500px ;
+  margin: 0 auto;
+  background-color: rgb(255, 47, 82);
+  box-shadow: 7px 7px goldenrod;
+}
+
+.show{
+  width:500px ;
+  margin: 0 auto;
+  background-color: rgb(34, 57, 15);
+  padding: 10px;
+  box-shadow: 2px 2px white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
