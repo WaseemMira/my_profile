@@ -1,37 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 body {
-  background-color: lightblue;
+  background-image: url("images/background.jpg");
+  background-size:cover;
+  background-attachment: fixed;
   text-align: center;
-  margin:0 auto;
+  margin: auto;
 }
 
 h1 {
-  color: white;
+  color:rgb(8, 245, 8);
+}
+
+h2 {
+   text-align: center;
+   color:white;
+}
+
+h3{
+  font-size: 25px;
+  color:white;
+}
+
+h4{
+  font-size: 17px;
+  display: inline-flex;
+  color:white;
+
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
-  color: red;
+  color: white;
+  text-align: left;
+  margin:10px;
 }
 
-#link {
-  font-weight: bold;
-  color: red;
-}
 
-.container {
-  margin: 50px auto;
-}
-
-.card-white p{
-  color: red;
+.box {
+  margin:10px 5px;
+  float:left;
 }
 
 img {
 border-radius: 50%;
-box-shadow: 2px, 2px, 3px,rgb(255, 166, 0);
+margin: 5px 4px;
+width:30%;
+float:left;
 }
+
 
 .list-inline i{
   font-size: 50px;
@@ -39,40 +56,71 @@ box-shadow: 2px, 2px, 3px,rgb(255, 166, 0);
 
 .list-inline li{
   list-style: none;
+  display:inline;
 }
 
 i:hover{
-  color: white;
+  color: rgb(248, 6, 6);
 }
 
-.card-demo p{
-  color: blueviolet;
+.card {
+  width: 400px ;
+  height:auto;
+  background-color:#9d4edd;
+  box-shadow: 4px 4px rgb(217, 226, 43);
+
 }
 
-.card-demo h2{
-   color: rgb(187, 255, 0);
+.card-one {
+  width: 400px ;
+  height:auto;
+  background-color:#9d4edd;
+  box-shadow: 4px 4px rgb(217, 226, 43);
+  position: absolute;
+  top: 10px;
+  left: 57.5%;
 }
 
-.card-white {
-  width: 500px ;
-  margin: 0 auto;
-  background-color: greenyellow;
-  box-shadow: 7px 7px blueviolet;
+.card-two {
+  width: 400px ;
+  height:90px;
+  background-color:#9d4edd;
+  box-shadow: 4px 4px rgb(217, 226, 43);
+  position: absolute;
+  top: 200px;
+  left:57.5%;
+  margin-top: 8px;
 }
 
-.card-demo{
-  width: 500px ;
-  margin: 0 auto;
-  background-color: rgb(255, 47, 82);
-  box-shadow: 7px 7px goldenrod;
+.card-three {
+  width: 400px ;
+  height:auto;
+  background-color:#9d4edd;
+  box-shadow: 4px 4px rgb(217, 226, 43);
+  position: absolute;
+  top: 310px;
+  left:57.5%;
+  margin-top: 4px;
 }
 
-.show{
-  width:500px ;
-  margin: 0 auto;
-  background-color: rgb(34, 57, 15);
-  padding: 10px;
-  box-shadow: 2px 2px white;
+.card-four {
+  width: 400px ;
+  height:auto;
+  background-color:#9d4edd;
+  box-shadow: 4px 4px rgb(217, 226, 43);
+  position: absolute;
+  top: 435px;
+  left:57.5%;
+  margin-top: 4px;
+}
+
+.fa{
+  width:100px;
+  height:10px;
+}
+
+.box {
+  margin-left:30%;
 }
 
 @media (max-width: 960px) {
